@@ -13,10 +13,10 @@ Our blueprint defines the system architecture using a multi-layered design and c
 
 ## 2. Reflection
 
-**Key Takeaway:**
+**What I have learnt:**
 
-* **System Separation Principles:** I learned the value of breaking an enterprise platform down into decoupled Presentation, Business, and Database layers. This assignment showed me that separating the front-end user interfaces from complex manufacturing calculations is essential to ensure a global system can update individual parts without risking entire database crashes.
-* **Cross-Functional Data Dependencies:** I gained a clear understanding of how manufacturing operations rely on real-time data handshakes between separate business departments. Seeing how an entry in the production department immediately shifts inventory requirements, triggers payroll timelines in HR, and alerts accounting in Finance showed me that an ERP acts as the central brain of an enterprise.
-* **Proactive Risk and Life Cycle Planning:** This activity taught me that the technical launch of a system is only a small part of enterprise engineering. Learning about testing strategies, maintenance update cycles, and cloud migration frameworks showed me that managing human resistance to change and mapping complex data integration flows early on is what prevents massive budget overruns.
+* I learned the value of breaking an enterprise platform down into decoupled Presentation, Business, and Database layers. This assignment showed me that separating the front-end user interfaces from complex manufacturing calculations is essential to ensure a global system can update individual parts without risking entire database crashes.
+* I gained a clear understanding of how manufacturing operations rely on real-time data handshakes between separate business departments. Seeing how an entry in the production department immediately shifts inventory requirements, triggers payroll timelines in HR, and alerts accounting in Finance showed me that an ERP acts as the central brain of an enterprise.
+* This activity taught me that the technical launch of a system is only a small part of enterprise engineering. Learning about testing strategies, maintenance update cycles, and cloud migration frameworks showed me that managing human resistance to change and mapping complex data integration flows early on is what prevents massive budget overruns.
 
 ---
