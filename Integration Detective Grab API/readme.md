@@ -17,9 +17,9 @@ Our structural analysis maps out Grab's integration dependencies and failure vul
 
 **What I have learnt:**
 
-* **Synchronous vs. Asynchronous Communication Rules:** This activity taught me how modern enterprise super-apps balance different communication styles. I learned that while high-security actions like checking a credit card require a rigid synchronous API loop that waits for an instant response, background activities like tracking a driver's GPS location or updating delivery statuses must run asynchronously to prevent app lag.
-* **The Business Impact of Data Inconsistency:** Investigating the "sold-out but still orderable" glitch showed me that software bugs are rarely just technical problems—they have huge business costs. I realized that a simple data sync delay between a restaurant's POS system and Grab's app creates a chain reaction of canceled rides, angry customers, and expensive manual customer support intervention.
-* **Architecting for Failure Tolerances:** Classifying problems into logical design flaws and physical infrastructure crashes changed how I think about system safety. I learned that engineers must design systems assuming things will break, using tools like real-time event-driven webhooks and automatic fallback paths to protect data flow when third-party push networks or payment gateways go offline.
+* This activity taught me how modern enterprise super-apps balance different communication styles. I learned that while high-security actions like checking a credit card require a rigid synchronous API loop that waits for an instant response, background activities like tracking a driver's GPS location or updating delivery statuses must run asynchronously to prevent app lag.
+* Investigating the "sold-out but still orderable" glitch showed me that software bugs are rarely just technical problems—they have huge business costs. I realized that a simple data sync delay between a restaurant's POS system and Grab's app creates a chain reaction of canceled rides, angry customers, and expensive manual customer support intervention.
+* Classifying problems into logical design flaws and physical infrastructure crashes changed how I think about system safety. I learned that engineers must design systems assuming things will break, using tools like real-time event-driven webhooks and automatic fallback paths to protect data flow when third-party push networks or payment gateways go offline.
 
 ---
 
